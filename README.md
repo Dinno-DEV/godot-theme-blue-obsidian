@@ -5,13 +5,13 @@
 ![image](https://github.com/user-attachments/assets/184fc523-31db-4674-9684-b9fdf611e170)
 
 # Recommended Theme Settings
-Icon and font color: Auto
-Base color: #262626 or #191919
-Accent color: #3385ff
-Contrast: 3.5
-Draw extra borders: No
-Icon saturation: 2
-Relationship Line Opacity: 0.1
-Border size: 0
-Corner radius: 6
-Additional spacing: 4.5
+- Icon and font color: Auto
+- Base color: #262626 or #191919
+- Accent color: #3385ff
+- Contrast: 3.5
+- Draw extra borders: No
+- Icon saturation: 2
+- Relationship Line Opacity: 0.1
+- Border size: 0
+- Corner radius: 6
+- Additional spacing: 4.5
