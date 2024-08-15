@@ -5,7 +5,7 @@
 ![image](https://github.com/user-attachments/assets/184fc523-31db-4674-9684-b9fdf611e170)
 
 # Installation
-Download `blue_obsidian.tres` and select the file in `Menu > Editor Settings.. > Interface > Theme > Custom Theme`.
+Download `blue_obsidian.tres` and select the file in `Editor > Editor Settings.. > Interface > Theme > Custom Theme`.
 
 # Recommended Theme Settings
 - Icon and font color: Auto
