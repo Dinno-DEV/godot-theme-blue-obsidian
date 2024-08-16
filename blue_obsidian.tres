@@ -528,6 +528,10 @@ corner_radius_bottom_right = 5
 corner_radius_bottom_left = 5
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_slyak"]
+content_margin_left = 5.0
+content_margin_top = 5.0
+content_margin_right = 5.0
+content_margin_bottom = 5.0
 bg_color = Color(0.25098, 0.576471, 1, 0.0862745)
 border_width_left = 2
 border_width_top = 2
