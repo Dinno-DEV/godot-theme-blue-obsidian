@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=68 format=3 uid="uid://bii1ksxyiwcm2"]
+[gd_resource type="Theme" load_steps=66 format=3 uid="uid://bii1ksxyiwcm2"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5e0lb"]
 content_margin_left = 11.0
@@ -82,19 +82,17 @@ content_margin_top = 5.0
 content_margin_right = 5.0
 content_margin_bottom = 5.0
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cowbt"]
-content_margin_left = 4.0
-content_margin_top = 4.0
-content_margin_right = 4.0
-content_margin_bottom = 4.0
-bg_color = Color(0.0980392, 0.0980392, 0.0980392, 1)
-border_color = Color(0.413725, 0.413725, 0.413725, 1)
-corner_radius_top_left = 10
-corner_radius_top_right = 10
-corner_radius_bottom_right = 10
-corner_radius_bottom_left = 10
-corner_detail = 5
-shadow_color = Color(0, 0, 0, 0.3)
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xayjw"]
+content_margin_left = 20.0
+content_margin_top = 20.0
+content_margin_right = 20.0
+content_margin_bottom = 20.0
+bg_color = Color(0.0941176, 0.0941176, 0.0941176, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.294118, 0.313726, 0.341176, 1)
 anti_aliasing = false
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_55hi6"]
@@ -122,14 +120,8 @@ corner_radius_bottom_right = 5
 corner_radius_bottom_left = 5
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_tmarq"]
-
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_h1j4a"]
-
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ixaai"]
-content_margin_left = 5.0
-content_margin_top = 5.0
-content_margin_right = 5.0
-content_margin_bottom = 5.0
+content_margin_left = 10.0
+content_margin_bottom = 10.0
 
 [sub_resource type="Gradient" id="Gradient_810ns"]
 colors = PackedColorArray(0.0799141, 0.233431, 0.190492, 1, 0.121569, 0.180392, 0.254902, 1)
@@ -608,7 +600,7 @@ ColorPickerButton/styles/focus = SubResource("StyleBoxEmpty_4is4m")
 ColorPickerButton/styles/hover = SubResource("StyleBoxEmpty_4is4m")
 ColorPickerButton/styles/normal = SubResource("StyleBoxEmpty_4is4m")
 ColorPickerButton/styles/pressed = SubResource("StyleBoxEmpty_4is4m")
-ControlEditorPopupPanel/styles/panel = SubResource("StyleBoxFlat_cowbt")
+ControlEditorPopupPanel/styles/panel = SubResource("StyleBoxFlat_xayjw")
 EditorInspectorCategory/styles/bg = SubResource("StyleBoxFlat_55hi6")
 EditorLogFilterButton/styles/pressed = SubResource("StyleBoxFlat_uub2a")
 EditorProperty/colors/property_color = Color(1, 1, 1, 0.741176)
@@ -618,9 +610,9 @@ EditorProperty/colors/warning_color = Color(0.913725, 0, 0, 0.741176)
 EditorProperty/constants/font_offset = 10
 EditorProperty/constants/v_separation = 15
 EditorProperty/styles/bg = SubResource("StyleBoxEmpty_tmarq")
-EditorProperty/styles/bg_group_note = SubResource("StyleBoxEmpty_h1j4a")
-EditorProperty/styles/bg_selected = SubResource("StyleBoxEmpty_ixaai")
-EditorProperty/styles/child_bg = SubResource("StyleBoxEmpty_ixaai")
+EditorProperty/styles/bg_group_note = SubResource("StyleBoxEmpty_tmarq")
+EditorProperty/styles/bg_selected = SubResource("StyleBoxEmpty_tmarq")
+EditorProperty/styles/child_bg = SubResource("StyleBoxEmpty_tmarq")
 EditorStyles/styles/Background = SubResource("StyleBoxTexture_m6mci")
 EditorStyles/styles/BottomPanel = SubResource("StyleBoxFlat_0dct1")
 EditorStyles/styles/BottomPanelDebuggerOverride = SubResource("StyleBoxFlat_0dct1")
